@@ -1,4 +1,3 @@
-# This program was created to send a file to another place in your workspace with the intention of security. 
 
 ## To do so, in the terminal, you would:
 
@@ -11,3 +10,5 @@ source venv/bin/activate  OR # On Windows: venv\Scripts\activate
 - _Sending a file:_ python3 securefile.py client --host localhost --port 8443 send --file /path/to/your/file.txt
 - _List available files:_ python3 securefile.py client --host localhost --port 8443 list
 - _Obtaining a file:_ python3 securefile.py client --host localhost --port 8443 get --file filename.txt --output /path/to/save/file.txt 
+
+### Send a file to another place in your workspace to create security
