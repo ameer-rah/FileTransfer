@@ -1,6 +1,6 @@
-This program was created to send a file to another place in your workspace with the intention of security. 
+# This program was created to send a file to another place in your workspace with the intention of security. 
 
-To do so, in the terminal, you would:
+## To do so, in the terminal, you would:
 
 - git clone https://github.com/your-username/fileTransfer.git
 cd fileTransfer
