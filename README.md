@@ -3,10 +3,13 @@
 - git clone https://github.com/your-username/fileTransfer.git
 cd fileTransfer
 
-- python3 -m venv venv
-source venv/bin/activate  OR # On Windows: venv\Scripts\activate
+- ```
+  python3 -m venv venv source venv/bin/activate  OR # On Windows: venv\Scripts\activate
+  ````
 
-- python3 -m pip install cryptography
+- ```
+  python3 -m pip install cryptography
+  ```
   
 - _Starting the server:_ python3 securefile.py server --host localhost --port 8443 --dir ./secure_files
   
