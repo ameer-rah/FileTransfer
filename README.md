@@ -1,7 +1,9 @@
 ## What to do in the Terminal:
 
-- git clone https://github.com/your-username/fileTransfer.git
-cd fileTransfer
+- ```
+  git clone https://github.com/your-username/fileTransfer.git
+  cd fileTransfer
+  ```
 
 - ```
   python3 -m venv venv source venv/bin/activate  OR # On Windows: venv\Scripts\activate
