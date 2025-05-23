@@ -11,13 +11,20 @@ cd fileTransfer
   python3 -m pip install cryptography
   ```
   
-- _Starting the server:_ python3 securefile.py server --host localhost --port 8443 --dir ./secure_files
+- ```
+  Starting the server:_ python3 securefile.py server --host localhost --port 8443 --dir ./secure_files
+  ```
   
-- _Sending a file:_ python3 securefile.py client --host localhost --port 8443 send --file /path/to/your/file.txt
+- ```
+  Sending a file:_ python3 securefile.py client --host localhost --port 8443 send --file /path/to/your/file.txt
+  ```
   
-- _List available files:_ python3 securefile.py client --host localhost --port 8443 list
+- ```
+  List available files:_ python3 securefile.py client --host localhost --port 8443 list
+  ```
   
-- _Obtaining a file:_ python3 securefile.py client --host localhost --port 8443 get --file filename.txt --output /path/to/save/file.txt
-
+- ```
+  Obtaining a file:_ python3 securefile.py client --host localhost --port 8443 get --file filename.txt --output /path/to/save/file.txt
+  ```
 
 Send a file to another place in your workspace to create security
